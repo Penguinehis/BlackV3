@@ -14,7 +14,7 @@
 			android:summary="@string/summary_forward_udp"
 			android:title="@string/title_forward_udp" />
 
-		<com.tg.net.view.SummaryEditTextPreference
+		<com.blackv3.net.view.SummaryEditTextPreference
             android:key="udpResolver"
             android:title="@string/title_resolver_udp"
             android:summary="@string/summary_resolver_udp"
@@ -33,7 +33,7 @@
 			android:summary="@string/summary_forward_dns"
 			android:title="@string/title_forward_dns" />
 		
-		<com.tg.net.view.SummaryEditTextPreference
+		<com.blackv3.net.view.SummaryEditTextPreference
             android:key="dnsResolver"
             android:title="@string/title_dns_primary"
             android:summary="@string/summary_dns_primary"
@@ -55,7 +55,7 @@
 			android:title="@string/title_mode_night"
 			/>
 
-		<com.tg.net.view.SummaryEditTextPreference
+		<com.blackv3.net.view.SummaryEditTextPreference
             android:key="pingerSSH"
             android:title="@string/title_ping_time"
 			android:maxLength="3"
@@ -95,7 +95,7 @@
 	
 	<androidx.preference.Preference
     	android:key="screenAdvancedSettings"
-		app:fragment="com.tg.net.preference.SettingsAdvancedPreference"
+		app:fragment="com.blackv3.net.preference.SettingsAdvancedPreference"
         android:title="@string/category_advanced_settings"
 	/>
 	

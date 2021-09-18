@@ -1,5 +1,5 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-//MOD CRIADO POR @TGNETVPN, por favor mantenha os créditos ;)
+//MOD CRIADO POR @BLCKv3, por favor mantenha os créditos ;)
 buildscript {
     repositories {
         jcenter()

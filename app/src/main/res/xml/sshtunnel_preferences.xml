@@ -5,7 +5,7 @@
 	<androidx.preference.PreferenceCategory
 		android:title="SSH Tunnel">
 		
-		<com.tg.net.view.SummaryEditTextPreference
+		<com.blackv3.net.view.SummaryEditTextPreference
             android:key="sshServer"
             android:title="@string/ssh_server"
             android:summary="@string/no_value"
@@ -13,7 +13,7 @@
 			android:singleLine="true"
 			android:dialogLayout="@layout/pref_dialog_edittext_fix" />
 
-		<com.tg.net.view.SummaryEditTextPreference
+		<com.blackv3.net.view.SummaryEditTextPreference
             android:maxLength="5"
             android:key="sshPort"
             android:title="@string/ssh_port"
@@ -27,7 +27,7 @@
 	<androidx.preference.PreferenceCategory
 		android:title="@string/title_auth">
 			
-		<com.tg.net.view.SummaryEditTextPreference
+		<com.blackv3.net.view.SummaryEditTextPreference
             android:key="sshUser"
             android:title="@string/auth_username"
             android:summary="@string/no_value"
@@ -35,7 +35,7 @@
 			android:singleLine="true"
 			android:dialogLayout="@layout/pref_dialog_edittext_fix" />
 		
-		<com.tg.net.view.PasswordEditTextPreference
+		<com.blackv3.net.view.PasswordEditTextPreference
             android:key="sshPass"
             android:title="@string/password"
             android:summary="@string/no_value"
@@ -49,7 +49,7 @@
 	<androidx.preference.PreferenceCategory
 		android:title="@string/category_forward_port">
 
-		<com.tg.net.view.SummaryEditTextPreference
+		<com.blackv3.net.view.SummaryEditTextPreference
             android:maxLength="5"
             android:key="sshPortaLocal"
             android:title="@string/ssh_porta_local"

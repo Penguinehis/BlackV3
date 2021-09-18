@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tg.ultrasshservice" >
+    package="com.blackv3.ultrasshservice" >
 	
 	
 	<!--- Permissions -->
@@ -20,7 +20,7 @@
 		
 		
 		<!--- Activities -->
-		<activity android:name=".LaunchVpn"
+		<activity android:name="com.blackv3.ultrasshservice.LaunchVpn"
 			android:autoRemoveFromRecents="true"
             android:excludeFromRecents="true"
             android:taskAffinity=".LaunchVPN"
@@ -35,7 +35,7 @@
 		
 		<!--         This is for ensuring the background service still runs when/if the app is swiped away -->
         <activity
-            android:name=".util.DummyActivity"
+            android:name="com.blackv3.ultrasshservice.util.DummyActivity"
             android:allowTaskReparenting="true"
             android:alwaysRetainTaskState="false"
             android:clearTaskOnLaunch="true"
@@ -49,7 +49,7 @@
 		
 		<!--- Receivers -->
 		<receiver
-			android:name=".MainReceiver">
+			android:name="com.blackv3.ultrasshservice.MainReceiver">
 			<intent-filter>
 				<action
 					android:name=".MainReceiver.ACTION_SERVICE_STOP">
@@ -63,7 +63,7 @@
 		
 		<!--- Services -->
 		<service android:label="StartNET VPN - Lite"
-			android:name=".tunnel.vpn.TunnelVpnService"
+			android:name="com.blackv3.ultrasshservice.tunnel.vpn.TunnelVpnService"
 			android:exported="false"
 			android:enabled="true"
 			android:permission="android.permission.BIND_VPN_SERVICE">
@@ -72,8 +72,8 @@
 			</intent-filter>
 		</service>
 		
-		<service android:label="TGNETVPN Service"
-			android:name=".TGNETVPNService"
+		<service android:label="BLCKv3 Service"
+			android:name="com.blackv3.ultrasshservice.BLCKv3Service"
 			android:stopWithTask="false"
 			android:exported="false">
 		</service>

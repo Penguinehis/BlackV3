@@ -3,10 +3,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "29.0.2"
 
     defaultConfig {
-        applicationId 'com.tg.net'
+        applicationId 'com.blackv3.net'
 		minSdkVersion 21
         targetSdkVersion 30
         versionCode 200

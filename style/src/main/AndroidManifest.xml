@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tg.compatstyle" >
+    package="com.blackv3.compatstyle" >
 
     <application>
       
 		<activity
-            android:name=".NotImplemented"
+            android:name="com.blackv3.compatstyle.NotImplemented"
         />
 		
     </application>

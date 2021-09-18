@@ -5,17 +5,17 @@
 <strong>Ferramentas usadas:</strong>
 <div id="legal">
 <p>SocksHttp by Anderson (BASE APP)
-https://github.com/sauceisgood/TGNETVPN
+https://github.com/sauceisgood/BLCKv3
 </p>
 <p>Jsoup 1.8.3
 https://github.com/jhy/jsoup
 </p>
 ===============================================================================
 
-This file contains the license for TGNETVPN, a free software project to
+This file contains the license for BLCKv3, a free software project to
 provide anonymity on the Internet from a Google Android smartphone.
 
-It also lists the licenses for other components used by TGNETVPN, including
+It also lists the licenses for other components used by BLCKv3, including
 Trilead SSH2, BadVpn Tun2Socks and Material Icons.
 
 If you got this file as a part of a larger bundle, there may be other
@@ -24,10 +24,10 @@ license terms that you should be aware of.
 ===============================================================================
 <strong>END-USER LICENSE AGREEMENT (EULA)</strong>
 <div id="legal">By downloading any application from One Host Internet (here after referered to as "us"),
-installing or using this application (software) or any portion thereof (TGNETVPN), you indicate your acceptance of these terms.
+installing or using this application (software) or any portion thereof (BLCKv3), you indicate your acceptance of these terms.
 If you do not accept these terms, do not install or use the software.
 
-The software (TGNETVPN) and any updates to it are provided "as is" and you bear the risk of using it.
+The software (BLCKv3) and any updates to it are provided "as is" and you bear the risk of using it.
 
 <strong>NO LIABILITY FOR CONSEQUENTIAL DAMAGES</strong>
 In no event shall One Host Internet (its officers, directors, employees or agents) be liable to you for any consequential, special, incidental or indirect damages of any kind arising out of the delivery, performance (including damages for loss of business profits, business interruption, loss of business information, lost savings, or other economic damage and the like) or use of the SOFTWARE.
@@ -58,7 +58,7 @@ You hereby agree to indemnify, defend and hold us, our subsidiaries, parent corp
 ******
 
 ===============================================================================
-TGNETVPN also includes Material Icons: https://github.com/google/material-design-icons
+BLCKv3 also includes Material Icons: https://github.com/google/material-design-icons
 
 Copyright 2020 Google Inc.
 
@@ -77,7 +77,7 @@ limitations under the License.
 ******
 
 ===============================================================================
-TGNETVPN also includes Trilead SSH-2: https://github.com/jenkinsci/trilead-ssh2
+BLCKv3 also includes Trilead SSH-2: https://github.com/jenkinsci/trilead-ssh2
 
  Copyright (c) 2007-2008 Trilead AG (http://www.trilead.com)
 
@@ -170,7 +170,7 @@ THE SOFTWARE.
 ******
 
 ===============================================================================
-TGNETVPN also includes BadVPN tun2socks: https://github.com/ambrop72/badvpn
+BLCKv3 also includes BadVPN tun2socks: https://github.com/ambrop72/badvpn
 
 Copyright (c) 2009, Ambroz Bizjak <ambrop7@gmail.com>
 All rights reserved.

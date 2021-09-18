@@ -1,4 +1,3 @@
-# BlackV3
-#BY Penguinehis
+# BLCKv3
 Cliente SSH Túnnel, simples e rápido.
 

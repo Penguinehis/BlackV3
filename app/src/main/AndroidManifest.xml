@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tg.net">
+    package="com.blackv3.net">
 	
 
 	<uses-permission android:name="android.permission.INTERNET"/>
@@ -12,7 +12,7 @@
 
 		
     <application
-		android:name=".TGNETVPNApp"
+		android:name="com.blackv3.net.BLCKv3App"
 		android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -22,7 +22,7 @@
 		
 		<!--- Activities -->
 			
-		<activity android:name=".LauncherActivity"
+		<activity android:name="com.blackv3.net.LauncherActivity"
             android:theme="@style/SplashScreenTheme" 
             android:label="@string/app_name">
             <intent-filter>
@@ -31,16 +31,16 @@
             </intent-filter>
         </activity>
 		
-		<activity android:name=".TGNETVPNMainActivity"
+		<activity android:name="com.blackv3.net.BLCKv3MainActivity"
 			android:label="@string/app_name"/>
 		
-		<activity android:name=".activities.ConfigGeralActivity"
-			android:parentActivityName=".TGNETVPNMainActivity"
+		<activity android:name="com.blackv3.net.activities.ConfigGeralActivity"
+			android:parentActivityName="com.blackv3.net.BLCKv3MainActivity"
             android:label="@string/settings"/>
 		
-		<activity android:name=".activities.ConfigImportFileActivity"
+		<activity android:name="com.blackv3.net.activities.ConfigImportFileActivity"
 			android:grantUriPermissions="true"
-			android:parentActivityName=".TGNETVPNMainActivity"
+			android:parentActivityName="com.blackv3.net.BLCKv3MainActivity"
 			android:label="@string/settings_import">
 			<intent-filter>
 				<action android:name="android.intent.action.VIEW" />
@@ -51,22 +51,22 @@
 				<data android:mimeType="*/*" />
 				<data android:host="*" />
 				<data android:port="*" />
-				<data android:pathPattern=".*.TGNETVPN"/>
-				<data android:pathPattern=".*..*.TGNETVPN"/>
-				<data android:pathPattern=".*..*..*.TGNETVPN"/>
-				<data android:pathPattern=".*..*..*..*.TGNETVPN"/>
-				<data android:pathPattern=".*..*..*..*..*.TGNETVPN"/>
-				<data android:pathPattern=".*..*..*..*..*..*.TGNETVPN"/>
-				<data android:pathPattern=".*..*..*..*..*..*..*.TGNETVPN"/>
+				<data android:pathPattern=".*.BLCKv3"/>
+				<data android:pathPattern=".*..*.BLCKv3"/>
+				<data android:pathPattern=".*..*..*.BLCKv3"/>
+				<data android:pathPattern=".*..*..*..*.BLCKv3"/>
+				<data android:pathPattern=".*..*..*..*..*.BLCKv3"/>
+				<data android:pathPattern=".*..*..*..*..*..*.BLCKv3"/>
+				<data android:pathPattern=".*..*..*..*..*..*..*.BLCKv3"/>
 			</intent-filter>
 		</activity>
 	
-		<activity android:name=".activities.ConfigExportFileActivity"
-			android:parentActivityName=".TGNETVPNMainActivity"
+		<activity android:name="com.blackv3.net.activities.ConfigExportFileActivity"
+			android:parentActivityName="com.blackv3.net.BLCKv3MainActivity"
 			android:label="@string/settings_export"/>
 		
-		<activity android:name=".activities.AboutActivity"
-			android:parentActivityName=".TGNETVPNMainActivity"
+		<activity android:name="com.blackv3.net.activities.AboutActivity"
+			android:parentActivityName="com.blackv3.net.BLCKv3MainActivity"
             android:label="@string/about"/>
 		
 		
