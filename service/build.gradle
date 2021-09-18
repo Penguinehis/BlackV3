@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        externalNativeBuild.ndkBuild {
+            // abiFilters("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
+            arguments("-j${Runtime.getRuntime().availableProcessors()}")
+        }
+
+        ndk {
+            //abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    externalNativeBuild {
+        ndkBuild {
+            path file('src/main/jni/Android.mk')
+        }
+    }
+
+}
+dependencies {
+    api 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'org.conscrypt:conscrypt-android:2.5.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api 'net.i2p.crypto:eddsa:0.3.0'
+    api 'org.connectbot.jbcrypt:jbcrypt:1.0.0'
+
+    // root detect
+    api project(':style')
+
+}

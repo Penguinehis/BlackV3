@@ -1,0 +1,47 @@
+{
+  "buildFiles": [
+    "D:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Android.mk",
+    "D:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ponei\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\ponei\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\lib -j12 {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ancillary-debug-armeabi-v7a": {
+      "artifactName": "ancillary",
+      "buildCommand": "C:\\Users\\ponei\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\lib -j12 D:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libancillary.a",
+      "abi": "armeabi-v7a",
+      "output": "D:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libancillary.a",
+      "runtimeFiles": []
+    },
+    "pdnsd-debug-armeabi-v7a": {
+      "artifactName": "pdnsd",
+      "buildCommand": "C:\\Users\\ponei\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\lib -j12 D:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libpdnsd.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libpdnsd.so",
+      "runtimeFiles": []
+    },
+    "system-debug-armeabi-v7a": {
+      "artifactName": "system",
+      "buildCommand": "C:\\Users\\ponei\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\lib -j12 D:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libsystem.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libsystem.so",
+      "runtimeFiles": []
+    },
+    "tun2socks-debug-armeabi-v7a": {
+      "artifactName": "tun2socks",
+      "buildCommand": "C:\\Users\\ponei\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\lib -j12 D:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libtun2socks.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libtun2socks.so",
+      "runtimeFiles": []
+    },
+    "cpufeatures-debug-armeabi-v7a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "C:\\Users\\ponei\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\lib -j12 D:/AndroisStudioAPPS/app/Apps/Blackv3/service/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libcpufeatures.a",
+      "abi": "armeabi-v7a",
+      "output": "D:\\AndroisStudioAPPS\\app\\Apps\\Blackv3\\service\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libcpufeatures.a",
+      "runtimeFiles": []
+    }
+  }
+}
