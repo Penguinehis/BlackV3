@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	
+	<group android:id="@+id/grupo1">
+		
+    	<item
+       		android:id="@+id/miPhoneConfg"
+			android:icon="@drawable/ic_wifi_tethering_black_24dp"
+        	android:title="@string/network_mobile"/>
+	
+    	<item android:id="@+id/miSettings"
+        	android:icon="@drawable/ic_settings"
+        	android:title="@string/settings"/>
+
+		<item
+			android:id="@+id/miapnset"
+			android:icon="@drawable/ic_baseline_sim_card_24"
+			android:title="Config. de APN"/>
+
+		<item android:id="@+id/miContato"
+			android:icon="@drawable/ic_baseline_contact_page_24"
+			android:title="Suporte"/>
+	
+	</group>
+
+	
+	
+</menu>
